@@ -52,7 +52,7 @@ The program accepts a list of integers as separate arguments.
 ```bash
 ./push_swap 42 10 1 50 99
 ```
-3. Error Handling
+### 3. Error Handling
 The program includes rigorous validation to ensure robustness:
 
   Detects and handles non-numeric arguments.
