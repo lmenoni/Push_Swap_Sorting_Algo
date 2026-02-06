@@ -24,4 +24,4 @@ echo "🚀 Avvio visualizer..."
 # Crea un symlink a push_swap nella directory visualizer per il path relativo
 cd visualizer
 ln -sf ../push_swap push_swap 2>/dev/null || true
-cd build/bin && ./visualizer
+cd build/bin && LD_LIBRARY_PATH=../../../visualizer/build/_deps/sfml-build/lib:$LD_LIBRARY_PATH ./visualizer
