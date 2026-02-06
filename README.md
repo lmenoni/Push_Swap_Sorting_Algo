@@ -41,8 +41,8 @@ This project requires sorting strictly under a specific number of moves to achie
 
 ### 1. Clone and Compile
 ```bash
-git clone https://github.com/lmenoni/push_swap.git
-cd push_swap
+git clone https://github.com/lmenoni/Push_Swap_Sorting_Algo.git
+cd Push_Swap_Sorting_Algo
 make
 ```
 ### 2. Running the Program
