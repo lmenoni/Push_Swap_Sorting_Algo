@@ -1,0 +1,16 @@
+# Compilazione
+obj/
+*.o
+*.a
+push_swap
+
+# Visualizer (build con dipendenze esterne)
+visualizer/
+
+# Configurazione editor
+imgui.ini
+.vscode/
+.DS_Store
+
+# Dipendenze
+my_libft/mylibft.a
