@@ -60,7 +60,7 @@ The program includes rigorous validation to ensure robustness:
   Detects duplicates in the input sequence.
   Returns Error on standard error in case of invalid input.
 
-🎨 Visualizer & Automation
+## 🎨 Visualizer & Automation
 I have included a helper script run.sh to automate the compilation and visualization process. This
 allows for immediate visual feedback on the sorting logic.
 
@@ -70,7 +70,7 @@ chmod +x run.sh
 ./run.sh
 ```
 
-📚 Instruction Set used
+## 📚 Instruction Set used
 
 | Code | Instruction | Action |
 | :--- | :--- | :--- |
