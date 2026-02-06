@@ -63,6 +63,7 @@ The program includes rigorous validation to ensure robustness:
 ## 🎨 Visualizer & Automation
 I have included a helper script run.sh to automate the compilation and visualization process. This
 allows for immediate visual feedback on the sorting logic.
+NOTE: The visualizer program was NOT written by me, it is an open source project commonly used in 42 network comunity.
 
 How to run:
 ```bash
