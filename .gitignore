@@ -4,8 +4,7 @@ obj/
 *.a
 push_swap
 
-# Visualizer (build con dipendenze esterne)
-visualizer/
+
 
 # Configurazione editor
 imgui.ini
