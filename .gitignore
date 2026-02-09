@@ -4,8 +4,6 @@ obj/
 *.a
 push_swap
 
-
-
 # Configurazione editor
 imgui.ini
 .vscode/

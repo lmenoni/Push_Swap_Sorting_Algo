@@ -15,11 +15,12 @@ LDFLAGS = my_libft/mylibft.a
 MY_LIBFT_DIR = my_libft
 MY_LIBFT = $(MY_LIBFT_DIR)/mylibft.a
 
-$(MY_LIBFT):
-	@$(MAKE) -C $(MY_LIBFT_DIR) > /dev/null 2>&1
 
 all: $(MY_LIBFT) $(NAME)
 	@echo "✓ Compilazione completata: $(NAME)"
+
+$(MY_LIBFT):
+	@$(MAKE) -C $(MY_LIBFT_DIR) > /dev/null 2>&1
 
 $(NAME): $(OBJECTS)
 	@echo "📦 Linking $(NAME)..."
@@ -27,7 +28,7 @@ $(NAME): $(OBJECTS)
 	@chmod +x $@
 
 $(OBJDIR):
-	mkdir -p $(OBJDIR)
+	@mkdir -p $(OBJDIR)
 
 $(OBJDIR)/%.o: $(SRC_DIR)/%.c | $(OBJDIR)
 	@echo "⚙️  Compilando $(patsubst $(SRC_DIR)/%,%,$<)..."
